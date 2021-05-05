@@ -14,7 +14,7 @@ const useLocalStorage = (key, initialValue) => {
     };
 
 
-    return [storedValue];
+    return [storedValue, setValue];
 };
 
 export default useLocalStorage;
